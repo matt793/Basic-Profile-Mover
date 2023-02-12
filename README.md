@@ -5,7 +5,7 @@ Basic Profile Mover script coded in PowerShell.
 
 Here is an example of a PowerShell script that will copy all files, folders, and settings of the user "malopez" profile from a PC named "malopez-01" on a domain to a new PC named "malopez-02" on the same domain:
 
-```
+```PowerShell
 $src = "\\malopez-01\C$\Users\malopez\"
 $dst = "\\malopez-02\C$\Users\malopez\"
 
